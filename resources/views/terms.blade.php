@@ -12,7 +12,7 @@
   <h1 class="fw-bold mb-4">Términos y Condiciones · Aviso de Privacidad</h1>
   <p class="text-muted mb-4">Última actualización: {{ \Carbon\Carbon::now()->format('d/m/Y') }}</p>
 
-  {{-- 1. Introducción --}}
+  {{-- 1. Introducción  :D --}}
   <section class="mb-5">
     <h2 class="h4">1) Introducción</h2>
     <p>
