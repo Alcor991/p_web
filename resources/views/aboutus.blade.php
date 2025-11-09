@@ -4,7 +4,7 @@
 @section('meta_description', 'Conoce a Técnicos Celaya: especialistas en reparación y mantenimiento de impresoras y copiadoras, con experiencia, compromiso y atención personalizada.')
 
 @push('styles')
-<link rel="stylesheet" href="{{ asset('css/aboutus.css') }}">
+<link rel="stylesheet" href="{{ asset('estilos/aboutus.css') }}">
 @endpush
 
 @section('content')

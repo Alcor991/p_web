@@ -42,7 +42,7 @@ Route::get('/offers', fn() => view('offers'))->name('offers');
  * URL: http://localhost:8000/terms
  */
 Route::get('/terms', fn() => view('terms'))->name('terms');
-
+Route::fallback(fn() => response()->view('landing', [], 404));
 
 /*
 |--------------------------------------------------------------------------
