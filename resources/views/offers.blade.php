@@ -20,7 +20,7 @@
     {{-- Reparación Express --}}
     <div class="col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm">
-        <img src="{{ asset('img/oferta-reparacion.jpg') }}" class="card-img-top" alt="Reparación express de impresoras">
+        <img src="{{ asset('img/reparacion.png') }}" class="card-img-top" alt="Reparación express de impresoras">
         <div class="card-body d-flex flex-column">
           <h2 class="h5">Reparación Express</h2>
           <p class="small text-muted mb-2">Diagnóstico incluido · Entrega rápida</p>
@@ -42,7 +42,7 @@
     {{-- Kit de Cartuchos --}}
     <div class="col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm">
-        <img src="{{ asset('img/oferta-cartuchos.jpg') }}" class="card-img-top" alt="Kit de cartuchos">
+        <img src="{{ asset('img/cartuchos.png') }}" class="card-img-top" alt="Kit de cartuchos">
         <div class="card-body d-flex flex-column">
           <h2 class="h5">Kit de Cartuchos</h2>
           <p class="small text-muted mb-2">Originales y certificados</p>
@@ -63,7 +63,7 @@
     {{-- Mantenimiento Preventivo --}}
     <div class="col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm">
-        <img src="{{ asset('img/oferta-mantenimiento.jpg') }}" class="card-img-top" alt="Mantenimiento preventivo">
+        <img src="{{ asset('img/oferta-mantenimiento.png') }}" class="card-img-top" alt="Mantenimiento preventivo">
         <div class="card-body d-flex flex-column">
           <h2 class="h5">Mantenimiento Preventivo</h2>
           <p class="small text-muted mb-2">Evita paros y costos inesperados</p>
@@ -84,7 +84,7 @@
     {{-- Renta de Copiadora --}}
     <div class="col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm">
-        <img src="{{ asset('img/oferta-renta.jpg') }}" class="card-img-top" alt="Renta de copiadora para oficina">
+        <img src="{{ asset('img/renta.png') }}" class="card-img-top" alt="Renta de copiadora para oficina">
         <div class="card-body d-flex flex-column">
           <h2 class="h5">Renta de Copiadora</h2>
           <p class="small text-muted mb-2">Ideal para oficinas con picos de demanda</p>
@@ -105,7 +105,7 @@
     {{-- Paquete Oficina --}}
     <div class="col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm">
-        <img src="{{ asset('img/oferta-oficina.jpg') }}" class="card-img-top" alt="Paquete oficina con mantenimiento">
+        <img src="{{ asset('img/oficina.png') }}" class="card-img-top" alt="Paquete oficina con mantenimiento">
         <div class="card-body d-flex flex-column">
           <h2 class="h5">Paquete Oficina</h2>
           <p class="small text-muted mb-2">Para 1–3 equipos en la misma sede</p>
@@ -126,7 +126,7 @@
     {{-- Diagnóstico a Domicilio --}}
     <div class="col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm">
-        <img src="{{ asset('img/oferta-domicilio.jpg') }}" class="card-img-top" alt="Diagnóstico a domicilio">
+        <img src="{{ asset('img/diagnostico.png') }}" class="card-img-top" alt="Diagnóstico a domicilio">
         <div class="card-body d-flex flex-column">
           <h2 class="h5">Diagnóstico a Domicilio</h2>
           <p class="small text-muted mb-2">Visita programada en tu empresa</p>
