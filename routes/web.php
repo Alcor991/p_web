@@ -44,18 +44,17 @@ Route::get('/offers', fn() => view('offers'))->name('offers');
 Route::get('/terms', fn() => view('terms'))->name('terms');
 Route::fallback(fn() => response()->view('landing', [], 404));
 
-/*
-|--------------------------------------------------------------------------
-| Sección preparada para futuras rutas dinámicas
-|--------------------------------------------------------------------------
-|
-| Aquí se añadirán más adelante:
-| - Rutas de autenticación (login, registro)
-| - Panel de administración (/admin)
-| - Formularios con controladores
-| - API REST si decides agregar endpoints
-|
-| Ejemplo futuro:
-| Route::get('/admin', [AdminController::class, 'index'])->middleware('auth');
-|
-*/
+use App\Http\Controllers\AuthController;
+
+Route::get('/login',    [AuthController::class, 'showLogin'])->name('login');
+Route::post('/login',   [AuthController::class, 'login'])->name('login.post');
+
+Route::get('/register', [AuthController::class, 'showRegister'])->name('register');
+Route::post('/register',[AuthController::class, 'register'])->name('register.post');
+
+Route::post('/logout',  [AuthController::class, 'logout'])->name('logout');
+
+// Ruta protegida de ejemplo (requiere login)
+Route::get('/admin', function () {
+    return view('admin.dashboard');
+})->middleware('auth')->name('dashboard');
