@@ -63,7 +63,7 @@
     {{-- Mantenimiento Preventivo --}}
     <div class="col-md-6 col-lg-4">
       <div class="card h-100 shadow-sm">
-        <img src="{{ asset('img/oferta-mantenimiento.png') }}" class="card-img-top" alt="Mantenimiento preventivo">
+        <img src="{{ asset('img/mantenimiento.png') }}" class="card-img-top" alt="Mantenimiento preventivo">
         <div class="card-body d-flex flex-column">
           <h2 class="h5">Mantenimiento Preventivo</h2>
           <p class="small text-muted mb-2">Evita paros y costos inesperados</p>
